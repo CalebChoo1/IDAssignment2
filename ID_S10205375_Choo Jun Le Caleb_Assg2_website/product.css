@@ -2,6 +2,13 @@
   max-width: 960px;
 }
 
+body {
+  background-image: url('Images/map.jpg');
+  background-size: cover;               
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /*
  * Custom translucent site header
  */

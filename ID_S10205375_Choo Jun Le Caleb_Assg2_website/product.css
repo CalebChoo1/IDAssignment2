@@ -9,6 +9,14 @@ body {
   background-attachment: fixed;
 }
 
+.topbutton {
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+
 /*
  * Custom translucent site header
  */

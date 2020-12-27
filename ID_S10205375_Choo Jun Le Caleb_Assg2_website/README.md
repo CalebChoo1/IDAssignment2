@@ -1,6 +1,6 @@
 # The Lord of The Rings wikipedia (ID Assignment 2)
 
-My project allows fans of the novel "The Lord of the Rings" to search for its books, characters and movies. They can see all the books and movies with just a click of a button. There is a separate section for the information of books and movies. The last section allows users to search for characters. The specific character's information will be displayed. (race, gender, etc...). I feel that this would help fans of the novel to know more about the characters and also discover movies they might not have watched yet. This website can also be used by people who are new to the novel but would like to find out more about it. Hence i feel that my website is useful in helping its users to search and retrieve information on the Lord of the Rings.
+My project allows fans of the novel "The Lord of the Rings" to search for its books, characters and movies. They can see all the books and movies with just a click of a button. There is a separate section for the information of books and movies. The last section allows users to search for characters. The specific character's information will be displayed. (race, gender, etc...). I feel that this would help fans of the novel to know more about the characters and also discover movies they might not have watched yet. This website can also be used by people who are new to the novel but would like to find out more about it. Hence i feel that my website is useful in helping its users to search and retrieve information on The Lord of the Rings.
  
 ## Design Process
  

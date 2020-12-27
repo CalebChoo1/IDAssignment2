@@ -36,7 +36,11 @@ body {
   color: goldenrod;
 }
 
-#h1font {
+h1 {
+  font-family: 'Bitter', serif;
+}
+
+h2 {
   font-family: 'Bitter', serif;
 }
 

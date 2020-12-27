@@ -8,13 +8,16 @@
   padding: 20px;
   background: #f0e68c;
   border-radius: 10px;
+  padding-top: 30px;
+  position: relative;
+  top: 20px;
 }
 
 body {
   background-image: url('Images/map.jpg');
   background-size: cover;               
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 .topbutton {

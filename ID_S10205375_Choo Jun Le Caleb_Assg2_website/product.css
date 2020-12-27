@@ -2,6 +2,14 @@
   max-width: 960px;
 }
 
+.container1 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0e68c;
+  border-radius: 10px;
+}
+
 body {
   background-image: url('Images/map.jpg');
   background-size: cover;               
@@ -23,6 +31,14 @@ body {
 
 .title {
   color: goldenrod;
+}
+
+#h1font {
+  font-family: 'Bitter', serif;
+}
+
+#p1 {
+  font-size: 18px;
 }
 
 #background1 {

@@ -13,11 +13,21 @@
   top: 20px;
 }
 
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0e68c;
+  border-radius: 10px;
+  padding-left: 32px;
+}
+
 body {
   background-image: url('Images/map.jpg');
   background-size: cover;               
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .topbutton {
@@ -54,7 +64,13 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+}
+
+#background2 {
+  background-image: url("Images/bookimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 
 }
 
 /*

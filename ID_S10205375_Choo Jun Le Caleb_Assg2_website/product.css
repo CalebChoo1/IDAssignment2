@@ -8,7 +8,6 @@
   padding: 20px;
   background: #f0e68c;
   border-radius: 10px;
-  padding-top: 30px;
   position: relative;
   top: 20px;
 }
@@ -22,6 +21,14 @@
   padding-left: 32px;
   position: relative;
   bottom: 25px;
+}
+
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0e68c;
+  border-radius: 10px;
 }
 
 body {
@@ -70,6 +77,13 @@ h2 {
 
 #background2 {
   background-image: url("Images/bookbimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 
+}
+
+#background3 {
+  background-image: url("Images/moviebimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 

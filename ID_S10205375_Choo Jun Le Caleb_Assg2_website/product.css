@@ -75,6 +75,18 @@ h2 {
   background-size: cover 
 }
 
+#book1 {
+  font-size: 30px;
+}
+
+#book2 {
+  font-size: 30px;
+}
+
+#book3 {
+  font-size: 30px;
+}
+
 /*
  * Custom translucent site header
  */

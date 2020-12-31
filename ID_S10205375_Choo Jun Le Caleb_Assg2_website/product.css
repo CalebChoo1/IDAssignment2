@@ -77,14 +77,21 @@ h2 {
 
 #book1 {
   font-size: 30px;
+  font-family: 'Bitter', serif;
 }
 
 #book2 {
   font-size: 30px;
+  font-family: 'Bitter', serif;
 }
 
 #book3 {
   font-size: 30px;
+  font-family: 'Bitter', serif;
+}
+
+.card-text {
+  font-size: 15px;
 }
 
 /*

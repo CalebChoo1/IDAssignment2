@@ -8,6 +8,7 @@
   padding: 20px;
   background: #f0e68c;
   border-radius: 10px;
+  padding-top: 30px;
   position: relative;
   top: 20px;
 }
@@ -112,7 +113,7 @@ h2 {
 
 .movielist {
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /*

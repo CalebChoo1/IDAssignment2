@@ -29,6 +29,8 @@
   padding: 20px;
   background: #f0e68c;
   border-radius: 10px;
+  position: relative;
+  bottom: 27px;
 }
 
 body {
@@ -106,6 +108,11 @@ h2 {
 
 .card-text {
   font-size: 15px;
+}
+
+.movielist {
+  text-align: left;
+  font-size: 20px;
 }
 
 /*

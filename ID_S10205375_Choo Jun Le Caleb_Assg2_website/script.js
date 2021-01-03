@@ -66,3 +66,7 @@ button2.addEventListener("click", function(){
     }
   });
 })
+
+document.getElementById("btn2").onclick = function () {
+  this.disabled = true;
+}

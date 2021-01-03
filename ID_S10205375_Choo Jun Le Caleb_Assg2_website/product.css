@@ -2,7 +2,8 @@
   max-width: 960px;
 }
 
-.container1 {
+/* container for about section */
+.container-abt {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -13,7 +14,8 @@
   top: 20px;
 }
 
-.container2 {
+/* container for books section */
+.container-books {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -24,7 +26,8 @@
   bottom: 25px;
 }
 
-.container3 {
+/* container for movie section */
+.container-movie {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
@@ -34,6 +37,7 @@
   bottom: 26px;
 }
 
+/* css for body */
 body {
   background-image: url('Images/map.jpg');
   background-size: cover;               
@@ -42,35 +46,43 @@ body {
   background-attachment: fixed;
 }
 
+/* css to center back to top button */
 .topbutton {
   justify-content: center;
 }
 
+/* font for navbar */
 .navbar-brand {
   font-family: 'Bitter', serif;
 }
 
+/* font for navbar */
 .nav-link {
   font-family: 'Bitter', serif;
 }
 
+/* color of title "The Lord of the Rings" */
 .title {
   color: goldenrod;
 }
 
+/* css for h1 tag */
 h1 {
   font-family: 'Bitter', serif;
 }
 
+/* css for h2 tag */
 h2 {
   font-family: 'Bitter', serif;
 }
 
+/* css for id p1 */
 #p1 {
   font-size: 18px;
 }
 
-#background1 {
+/* background image for about section */
+#background-abt {
   background-image: url("Images/img1.jpg");
   height: 100%;
   background-position: center;
@@ -78,44 +90,52 @@ h2 {
   background-size: cover;
 }
 
-#background2 {
+/* background image for books section */
+#background-books {
   background-image: url("Images/bookbimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 
 }
 
-#background3 {
+/* background image for movie section */
+#background-movie {
   background-image: url("Images/moviebimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 
 }
 
+/* css for title of book 1 */
 #book1 {
   font-size: 30px;
   font-family: 'Bitter', serif;
 }
 
+/* css for title of book 2 */
 #book2 {
   font-size: 30px;
   font-family: 'Bitter', serif;
 }
 
+/* css for title of book 3 */
 #book3 {
   font-size: 30px;
   font-family: 'Bitter', serif;
 }
 
+/* css for the description of each book */
 .card-text {
   font-size: 15px;
 }
 
+/* css for list of movie details */
 .movieDetails {
   text-align: left;
   font-size: 23px;
 }
 
+/* css for list of movies */
 #movieList {
   text-align: left;
   font-family: 'Bitter', serif;
@@ -141,42 +161,6 @@ h2 {
   color: #fff;
   text-decoration: none;
 }
-
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
 
 /*
  * Extra utilities

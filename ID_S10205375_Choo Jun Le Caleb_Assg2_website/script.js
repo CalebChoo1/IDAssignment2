@@ -49,6 +49,7 @@ button.addEventListener("click", function(){
 
 var button2 = document.querySelector("#btn2");
 var listOfMov = document.querySelector("#movName");
+var movieList = [];
 
 button2.addEventListener("click", function(){
   fetch("https://the-one-api.dev/v2/movie", {
@@ -59,7 +60,9 @@ button2.addEventListener("click", function(){
   .then(response => response.json()) 
   .then(function(data){
     for (let i = 0; i < data.docs.length; i++){
-      listOfMov.innerHTML = data.docs[i].name;
+      var element = document.createElement("li");
+      element.innerHTML = data.docs[i].name;
+      $("#movieList").append(element);
     }
   });
 })

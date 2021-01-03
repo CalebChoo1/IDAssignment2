@@ -31,7 +31,7 @@
   background: #f0e68c;
   border-radius: 10px;
   position: relative;
-  bottom: 27px;
+  bottom: 26px;
 }
 
 body {
@@ -111,9 +111,17 @@ h2 {
   font-size: 15px;
 }
 
-.movielist {
+.movieDetails {
   text-align: left;
-  font-size: 17px;
+  font-size: 23px;
+}
+
+#movieList {
+  text-align: left;
+  font-family: 'Bitter', serif;
+  font-size: 23px;
+  position: relative;
+  bottom: 15px;
 }
 
 /*

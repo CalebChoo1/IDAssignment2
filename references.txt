@@ -10,3 +10,6 @@ https://www.waterstones.com/book/the-fellowship-of-the-ring/j-r-r-tolkien/978026
 https://www.waterstones.com/book/the-two-towers/j-r-r-tolkien/9780261103580
 https://www.amazon.com/Return-King-Being-Third-Rings-ebook/dp/B007978P18
 https://wallpapercave.com/the-lord-of-the-rings-the-fellowship-of-the-ring-wallpapers
+https://wallpaperset.com/lord-of-the-rings-hd-wallpaper
+
+https://stackoverflow.com/questions/38070369/how-change-the-placeholder-size-color-in-html (code to change size of placeholder text)

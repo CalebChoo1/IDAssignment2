@@ -70,3 +70,28 @@ button2.addEventListener("click", function(){
 document.getElementById("btn2").onclick = function () {
   this.disabled = true;
 }
+
+var button3 = document.querySelector("#btn3");
+
+button.addEventListener("click", function(){
+  fetch("https://the-one-api.dev/v2/movie", {
+    headers: {
+      "Authorization": "Bearer vfSSlo3EYHKB5s0VEep4"
+    }
+  })
+  .then(response => response.json()) 
+  .then(function(data){
+    var movieName = document.getElementById("searchTxt").value;
+    for (let i = 0; i < data.docs.length; i++){
+      if (movieName.toUpperCase() === data.docs[i].name.toUpperCase()){
+        movName.innerText = data.docs[i].name;
+        runtime.innerText = data.docs[i].runtimeInMinutes;
+        budget.innerText = data.docs[i].budgetInMillions;
+        revenue.innerText = data.docs[i].boxOfficeRevenueInMillions;
+        nominations.innerText = data.docs[i].academyAwardNominations;
+        wins.innerText = data.docs[i].academyAwardWins;
+        rotten.innerText = data.docs[i].rottenTomatesScore;
+      }
+    }
+  });
+})

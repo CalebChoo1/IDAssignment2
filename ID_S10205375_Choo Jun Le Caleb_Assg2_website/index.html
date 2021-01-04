@@ -58,13 +58,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Characters</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quotes</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
     <section>
       <!-- about section -->
-      <div id="background-abt" class="position-relative overflow-hidden p-3 pt-5 p-md-5 m-md-3 text-center bg-light">
+      <div id="background-abt" class="position-relative overflow-hidden pt-2 p-md-5 m-md-3 text-center bg-light">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
           <div class="container-abt">
             <h1 id="h1font" class="display-4.5 font-weight-normal">What is The Lord of the Rings?</h1><br>
@@ -85,7 +88,7 @@
           <div class="my-3 py-3">
             <div class="container-books">
               <h2 class="display-5">Books</h2>
-              <div class="row mx-auto pb-3">
+              <div class="row mx-auto pb-3 pr-0">
                 <!-- book 1 -->
                 <div class="card" style="width: 16rem;">
                   <img class="card-img-top" src="Images/book1.jpg" alt="book1">
@@ -116,7 +119,7 @@
         </div>
         <!-- movie section -->
         <div id="background-movie" class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
+          <div class="my-3">
             <div class="container-movie">
               <h2 class="display-5">Movies</h2>
               <div class="input-group mb-3">
@@ -137,7 +140,7 @@
                 </ul>
               </p><br>
               <button id="btn2" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Display All Movies below</button>
-              <p class="pb-md-4">
+              <p class="pb-md-2 pt-3">
                 <ul id="movieList"></ul>
               </p>
             </div>
@@ -145,16 +148,42 @@
         </div>
       </div>
     </section>
-    <!-- characters section -->
+    <!-- characters and quotes section -->
     <section>
-      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 class="display-4 font-weight-normal">Characters</h1>
-          <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-          <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div id="background-char" class="bg-light mr-md-3 pt-3 px-3 px-md-5 pb-md-4 text-center overflow-hidden">
+          <div class="my-3 py-3">
+            <div class="container-char">
+              <h2 class="display-5">Characters</h2>
+              <div class="input-group mb-3">
+                <input type="text" id="searchChar" class="form-control" placeholder="Search for Characters" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button id="btn3" class="btn btn-outline-success" type="button">Search</button>
+                </div>
+              </div>
+              <p class="lead">
+                <ul class="charDetails">
+                  <li>Name: <span id="charName"></span></li>
+                  <li>Height: <span id="charHeight"></span></li>
+                  <li>Race: <span id="charRace"></span></li>
+                  <li>Gender: <span id="charGender"></span></li>
+                  <li>Birth: <span id="charBirth"></span></li>
+                  <li>Spouse: <span id="charSpouse"></span></li>
+                  <li>Death: <span id="charDeath"></span></li>
+                  <li>Realm: <span id="charRealm"></span></li>
+                  <li>Hair: <span id="charHair"></span></li>
+                  <li>WikiUrl: <span id="charWiki"></span></li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3">
+            <h2 class="display-5">Quotes</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+        </div>
       </div>
     </section>
   </body>

@@ -2,6 +2,20 @@
   max-width: 960px;
 }
 
+/* code from internet to change font size of placeholder and input (referenced in readme */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-size: 15px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 15px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 15px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-size: 15px;
+}
+
 /* container for about section */
 .container-abt {
   width: 100%;
@@ -34,7 +48,17 @@
   background: #f0e68c;
   border-radius: 10px;
   position: relative;
-  bottom: 26px;
+  bottom: 10px;
+}
+
+/* container for characters section */
+.container-char {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0e68c;
+  border-radius: 10px;
+  position: relative;
 }
 
 /* css for body */
@@ -83,7 +107,7 @@ h2 {
 
 /* background image for about section */
 #background-abt {
-  background-image: url("Images/img1.jpg");
+  background-image: url("Images/abtbimg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,6 +125,14 @@ h2 {
 /* background image for movie section */
 #background-movie {
   background-image: url("Images/moviebimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 
+}
+
+/* background image for characters section */
+#background-char {
+  background-image: url("Images/charbimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 
@@ -142,6 +174,13 @@ h2 {
   font-size: 23px;
   position: relative;
   bottom: 15px;
+}
+
+/* css for list of character details */
+.charDetails {
+  text-align: left;
+  font-family: 'Bitter', serif;
+  font-size: 23px;
 }
 
 /*

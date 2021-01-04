@@ -67,30 +67,76 @@ button2.addEventListener("click", function(){
   });
 })
 
-document.getElementById("btn2").onclick = function () {
+document.getElementById("btn2").onclick = function(){
   this.disabled = true;
 }
 
 var button3 = document.querySelector("#btn3");
+var cName = document.querySelector("#charName");
+var cHeight = document.querySelector("#charHeight");
+var cRace = document.querySelector("#charRace");
+var cGender = document.querySelector("#charGender");
+var cBirth = document.querySelector("#charBirth");
+var cSpouse = document.querySelector("#charSpouse");
+var cDeath = document.querySelector("#charDeath");
+var cRealm = document.querySelector("#charRealm");
+var cHair = document.querySelector("#charHair");
+var cWiki = document.querySelector("#charWiki")
 
-button.addEventListener("click", function(){
-  fetch("https://the-one-api.dev/v2/movie", {
+button3.addEventListener("click", function(){
+  fetch("https://the-one-api.dev/v2/character", {
     headers: {
       "Authorization": "Bearer vfSSlo3EYHKB5s0VEep4"
     }
   })
   .then(response => response.json()) 
   .then(function(data){
-    var movieName = document.getElementById("searchTxt").value;
+    var charName = document.getElementById("searchChar").value;
     for (let i = 0; i < data.docs.length; i++){
-      if (movieName.toUpperCase() === data.docs[i].name.toUpperCase()){
-        movName.innerText = data.docs[i].name;
-        runtime.innerText = data.docs[i].runtimeInMinutes;
-        budget.innerText = data.docs[i].budgetInMillions;
-        revenue.innerText = data.docs[i].boxOfficeRevenueInMillions;
-        nominations.innerText = data.docs[i].academyAwardNominations;
-        wins.innerText = data.docs[i].academyAwardWins;
-        rotten.innerText = data.docs[i].rottenTomatesScore;
+      if (charName.toUpperCase() === data.docs[i].name.toUpperCase()){
+        cName.innerText = data.docs[i].name;
+        cHeight.innerText = data.docs[i].height;
+        cRace.innerText = data.docs[i].race;
+        cGender.innerText = data.docs[i].gender;
+        cBirth.innerText = data.docs[i].birth;
+        cSpouse.innerText = data.docs[i].spouse;
+        cDeath.innerText = data.docs[i].death;
+        cRealm.innerText = data.docs[i].realm;
+        cHair.innerText = data.docs[i].hair;
+        cWiki.innerText = data.docs[i].wikiUrl;
+        if (cHeight.innerText === "")
+        {
+          cHeight.innerText = "Null";
+        }
+        if (cRace.innerText === "")
+        {
+          cRace.innerText = "Null";
+        }
+        if (cGender.innerText === "")
+        {
+          cGender.innerText = "Null";
+        }
+        if (cBirth.innerText === "")
+        {
+          cBirth.innerText = "Null";
+        }
+        if (cSpouse.innerText === "")
+        {
+          cSpouse.innerText = "Null";
+        }
+        if (cDeath.innerText === "")
+        {
+          cDeath.innerText = "Null";
+        }
+        if (cRealm.innerText === "")
+        {
+          cRealm.innerText = "Null";
+        }
+        if (cHair.innerText === "")
+        {
+          cHair.innerText = "Null";
+        }
+
       }
     }
   });

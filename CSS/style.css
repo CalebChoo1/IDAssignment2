@@ -63,7 +63,7 @@
 
 /* css for body */
 body {
-  background-image: url('Images/map.jpg');
+  background-image: url('../Images/map.jpg');
   background-size: cover;               
   background-repeat: no-repeat;
   background-position: center;
@@ -107,7 +107,7 @@ h2 {
 
 /* background image for about section */
 #background-abt {
-  background-image: url("Images/abtbimg.jpg");
+  background-image: url("../Images/abtbimg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ h2 {
 
 /* background image for books section */
 #background-books {
-  background-image: url("Images/bookbimg.jpg");
+  background-image: url("../Images/bookbimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 
@@ -124,7 +124,7 @@ h2 {
 
 /* background image for movie section */
 #background-movie {
-  background-image: url("Images/moviebimg.jpg");
+  background-image: url("../Images/moviebimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 
@@ -132,7 +132,7 @@ h2 {
 
 /* background image for characters section */
 #background-char {
-  background-image: url("Images/charbimg.jpg");
+  background-image: url("../Images/charbimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 

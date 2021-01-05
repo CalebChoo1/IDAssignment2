@@ -58,7 +58,16 @@
   padding: 20px;
   background: #f0e68c;
   border-radius: 10px;
+}
+
+.container-quotes {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f0e68c;
+  border-radius: 10px;
   position: relative;
+  top: 1px;
 }
 
 /* css for body */
@@ -105,6 +114,12 @@ h2 {
   font-size: 18px;
 }
 
+/* css for id p2 */
+#p2 {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
 /* background image for about section */
 #background-abt {
   background-image: url("../Images/abtbimg.jpg");
@@ -133,6 +148,13 @@ h2 {
 /* background image for characters section */
 #background-char {
   background-image: url("../Images/charbimg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover 
+}
+
+#background-quotes {
+  background-image: url("../Images/quotesbimg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover 

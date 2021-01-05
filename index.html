@@ -87,7 +87,7 @@
         <div id="background-books" class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 py-3">
             <div class="container-books">
-              <h2 class="display-5">Books</h2>
+              <h2 class="display-5">Books</h2><br>
               <div class="row mx-auto pb-3 pr-0">
                 <!-- book 1 -->
                 <div class="card" style="width: 16rem;">
@@ -119,13 +119,13 @@
         </div>
         <!-- movie section -->
         <div id="background-movie" class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3">
+          <div class="my-3 pb-2">
             <div class="container-movie">
-              <h2 class="display-5">Movies</h2>
+              <h2 class="display-5">Movies</h2><br>
               <div class="input-group mb-3">
                 <input type="text" id="searchTxt" class="form-control" placeholder="Search for movie" aria-label="Search" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button id="btn1" class="btn btn-outline-success" type="button">Search</button>
+                  <button id="srchMovBtn" class="btn btn-outline-success" type="button">Search</button>
                 </div>
               </div>
               <p class="lead">
@@ -139,7 +139,7 @@
                   <li>Rotten Tomates Score: <span id="rotten"></span></li>
                 </ul>
               </p><br>
-              <button id="btn2" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Display All Movies below</button>
+              <button id="displayMovBtn" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Display All Movies below</button>
               <p class="pb-md-2 pt-3">
                 <ul id="movieList"></ul>
               </p>
@@ -151,14 +151,15 @@
     <!-- characters and quotes section -->
     <section>
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <!-- characters section -->
         <div id="background-char" class="bg-light mr-md-3 pt-3 px-3 px-md-5 pb-md-4 text-center overflow-hidden">
           <div class="my-3 py-3">
             <div class="container-char">
-              <h2 class="display-5">Characters</h2>
+              <h2 class="display-5">Characters</h2><br>
               <div class="input-group mb-3">
                 <input type="text" id="searchChar" class="form-control" placeholder="Search for Characters" aria-label="Search" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button id="btn3" class="btn btn-outline-success" type="button">Search</button>
+                  <button id="srchCharBtn" class="btn btn-outline-success" type="button">Search</button>
                 </div>
               </div>
               <p class="lead">
@@ -179,10 +180,17 @@
             </div>
           </div>
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3">
-            <h2 class="display-5">Quotes</h2>
-            <p class="lead">And an even wittier subheading.</p>
+        <!-- quotes section -->
+        <div id="background-quotes" class="bg-light mr-md-3 pt-3 px-3 px-md-5 text-center overflow-hidden">
+          <div class="my-3 pt-3">
+            <div class="container-quotes">
+              <h2 class="display-5">Quotes</h2><br>
+              <p id="p2">The quote chosen for you is....</p>
+              <h1 id="quote"><span id="userQuote"></span></h1>
+              <h2><span id="charOfQuote"></span></h2>
+              <p id="p2"><span id="movOfQuote"></span></p>
+              <button id="randomQuote" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Generate random quote!</button>
+            </div>
           </div>
         </div>
       </div>

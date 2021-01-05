@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //function to retreive book names and display them on html
   $.ajax({
     type: "GET",
     url: "https://the-one-api.dev/v2/book",
@@ -16,6 +17,7 @@ $(document).ready(function() {
     }
   });
 
+  //variables for searching movie details
   var button = document.querySelector("#srchMovBtn");
   var movName = document.querySelector("#movname");
   var runtime = document.querySelector("#runtime");
@@ -25,6 +27,7 @@ $(document).ready(function() {
   var wins = document.querySelector("#wins")
   var rotten = document.querySelector("#rotten");
 
+  //function to search and display movie details when button is clicked
   button.addEventListener("click", function(){
     fetch("https://the-one-api.dev/v2/movie", {
       headers: {
@@ -48,10 +51,10 @@ $(document).ready(function() {
     });
   })
 
+  //variable for display movie button
   var button2 = document.querySelector("#displayMovBtn");
-  var listOfMov = document.querySelector("#movName");
-  var movieList = [];
 
+  //function to display all movies when button is clicked
   button2.addEventListener("click", function(){
     fetch("https://the-one-api.dev/v2/movie", {
       headers: {
@@ -68,10 +71,12 @@ $(document).ready(function() {
     });
   })
 
+  //function to disable display movies button after one click to prevent repitition
   document.getElementById("displayMovBtn").onclick = function(){
     this.disabled = true;
   }
 
+  //variables for searching character details
   var button3 = document.querySelector("#srchCharBtn");
   var cName = document.querySelector("#charName");
   var cHeight = document.querySelector("#charHeight");
@@ -84,6 +89,7 @@ $(document).ready(function() {
   var cHair = document.querySelector("#charHair");
   var cWiki = document.querySelector("#charWiki")
 
+  //function to search and display character details when button is clicked
   button3.addEventListener("click", function(){
     fetch("https://the-one-api.dev/v2/character", {
       headers: {
@@ -143,11 +149,13 @@ $(document).ready(function() {
     });
   })
 
+  //variables for generating random quote and checking which movie and character it is from
   var button4 = document.querySelector("#randomQuote");
   var rQuote = document.querySelector("#userQuote");
   var coQuote = document.querySelector("#charOfQuote");
   var moQuote = document.querySelector("#movOfQuote");
 
+  //function to check which character the quote is from
   function checkChar(charID) {
     $.ajax({
       type: "GET",
@@ -166,6 +174,7 @@ $(document).ready(function() {
     });
   }
 
+  //function to check which movie the quote is from
   function checkMov(movID) {
     $.ajax({
       type: "GET",
@@ -184,6 +193,7 @@ $(document).ready(function() {
     });
   }
 
+  //function to generate and display random quote along with which character and movie it is from 
   button4.addEventListener("click", function(){
     fetch("https://the-one-api.dev/v2/quote", {
       headers: {

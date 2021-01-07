@@ -45,6 +45,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 20px;
+  padding-bottom: 30px;
   background: #f0e68c;
   border-radius: 10px;
   position: relative;
@@ -117,6 +118,12 @@ h2 {
 
 /* css for id p2 */
 #p2 {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+}
+
+/* css for id p2 */
+#p3 {
   font-size: 20px;
   font-family: 'Bitter', serif;
 }
@@ -206,8 +213,20 @@ h2 {
   font-size: 23px;
 }
 
+/* css for quote */
 #quote {
   font-size: 40px;
+  font-family: 'Bitter', serif;
+}
+
+#charOfQuote {
+  font-size: 30px;
+  font-family: 'Bitter', serif;
+}
+
+#movOfQuote {
+  font-size: 25px;
+  font-family: 'Bitter', serif;
 }
 
 /*

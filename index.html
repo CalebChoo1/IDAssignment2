@@ -123,26 +123,24 @@
             <div class="container-movie">
               <h2 class="display-5">Movies</h2><br>
               <div class="input-group mb-3">
-                <input type="text" id="searchTxt" class="form-control" placeholder="Search for movie" aria-label="Search" aria-describedby="basic-addon2">
+                <input type="text" id="searchTxt" class="form-control" placeholder="Search for movie">
                 <div class="input-group-append">
                   <button id="srchMovBtn" class="btn btn-outline-success" type="button">Search</button>
                 </div>
               </div>
-              <p class="lead">
-                <ul class="movieDetails">
-                  <li>Name Of Movie: <span id="movname"></span></li>
-                  <li>Runtime In Minutes: <span id="runtime"></span></li>
-                  <li>Budget In Millions: <span id="budget"></span></li>
-                  <li>Box Office Revenue In Millions: <span id="revenue"></span></li>
-                  <li>Academy Award Nominations: <span id="nominations"></span></li>
-                  <li>Academy Award Wins: <span id="wins"></span></li>
-                  <li>Rotten Tomates Score: <span id="rotten"></span></li>
-                </ul>
-              </p><br>
-              <button id="displayMovBtn" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Display All Movies below</button>
-              <p class="pb-md-2 pt-3">
+              <ul class="movieDetails">
+                <li>Name Of Movie: <span id="movname"></span></li>
+                <li>Runtime In Minutes: <span id="runtime"></span></li>
+                <li>Budget In Millions: <span id="budget"></span></li>
+                <li>Box Office Revenue In Millions: <span id="revenue"></span></li>
+                <li>Academy Award Nominations: <span id="nominations"></span></li>
+                <li>Academy Award Wins: <span id="wins"></span></li>
+                <li>Rotten Tomates Score: <span id="rotten"></span></li>
+              </ul><br>
+              <button id="displayMovBtn" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Display All Movies below</button><br>
+              <div class="pb-md-2 pt-3">
                 <ul id="movieList"></ul>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -157,26 +155,23 @@
             <div class="container-char">
               <h2 class="display-5">Characters</h2><br>
               <div class="input-group mb-3">
-                <input type="text" id="searchChar" class="form-control" placeholder="Search for Characters" aria-label="Search" aria-describedby="basic-addon2">
+                <input type="text" id="searchChar" class="form-control" placeholder="Search for Characters">
                 <div class="input-group-append">
                   <button id="srchCharBtn" class="btn btn-outline-success" type="button">Search</button>
                 </div>
               </div>
-              <p class="lead">
-                <ul class="charDetails">
-                  <li>Name: <span id="charName"></span></li>
-                  <li>Height: <span id="charHeight"></span></li>
-                  <li>Race: <span id="charRace"></span></li>
-                  <li>Gender: <span id="charGender"></span></li>
-                  <li>Birth: <span id="charBirth"></span></li>
-                  <li>Spouse: <span id="charSpouse"></span></li>
-                  <li>Death: <span id="charDeath"></span></li>
-                  <li>Realm: <span id="charRealm"></span></li>
-                  <li>Hair: <span id="charHair"></span></li>
-                  <li>WikiUrl: <span id="charWiki"></span></li>
-                  </li>
-                </ul>
-              </p>
+              <ul class="charDetails">
+                <li>Name: <span id="charName"></span></li>
+                <li>Height: <span id="charHeight"></span></li>
+                <li>Race: <span id="charRace"></span></li>
+                <li>Gender: <span id="charGender"></span></li>
+                <li>Birth: <span id="charBirth"></span></li>
+                <li>Spouse: <span id="charSpouse"></span></li>
+                <li>Death: <span id="charDeath"></span></li>
+                <li>Realm: <span id="charRealm"></span></li>
+                <li>Hair: <span id="charHair"></span></li>
+                <li>WikiUrl: <span id="charWiki"></span></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -186,20 +181,20 @@
             <div class="container-quotes">
               <h2 class="display-5">Quotes</h2><br>
               <p id="p2">The quote chosen for you is....</p>
-              <h1 id="quote"><span id="userQuote"></span></h1>
-              <h2><span id="charOfQuote"></span></h2>
-              <p id="p2"><span id="movOfQuote"></span></p>
+              <p id="quote"><span id="userQuote"></span></p>
+              <p><span id="charOfQuote"></span></p>
+              <p id="p3"><span id="movOfQuote"></span></p>
               <button id="randomQuote" type="button" class="btn btn-primary btn-lg btn-block btn btn-success">Generate random quote!</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <footer class="container py-5 text-center">
+      <a class="btn btn-dark" href="#">Back to top</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
-  <footer class="container py-5 text-center">
-    <a class="btn btn-dark" href="#">Back to top</a>
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="script.js"></script>
 </html>

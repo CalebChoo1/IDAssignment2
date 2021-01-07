@@ -40,6 +40,8 @@ Adobe XD wireframe link: https://xd.adobe.com/view/ce4fc9cd-8cc0-4e03-b5f8-0e069
     - The project uses **HTML** language to write the website.
 - [CSS](https://css-tricks.com/)
     - The project uses **CSS** language to style the website. 
+- [API](https://the-one-api.dev/)
+    - The project uses the one **API** to retrieve information on The Lord of the Rings.
 
 ## Testing
 

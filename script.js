@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
   //function to retreive book names and display them on html
   $.ajax({
     type: "GET",
@@ -24,7 +24,7 @@ $(document).ready(function() {
   var budget = document.querySelector("#budget");
   var revenue = document.querySelector("#revenue");
   var nominations = document.querySelector("#nominations");
-  var wins = document.querySelector("#wins")
+  var wins = document.querySelector("#wins");
   var rotten = document.querySelector("#rotten");
 
   //function to search and display movie details when button is clicked
@@ -69,12 +69,12 @@ $(document).ready(function() {
         $("#movieList").append(element);
       }
     });
-  })
+  });
 
   //function to disable display movies button after one click to prevent repitition
   document.getElementById("displayMovBtn").onclick = function(){
     this.disabled = true;
-  }
+  };
 
   //variables for searching character details
   var button3 = document.querySelector("#srchCharBtn");
@@ -87,7 +87,7 @@ $(document).ready(function() {
   var cDeath = document.querySelector("#charDeath");
   var cRealm = document.querySelector("#charRealm");
   var cHair = document.querySelector("#charHair");
-  var cWiki = document.querySelector("#charWiki")
+  var cWiki = document.querySelector("#charWiki");
 
   //function to search and display character details when button is clicked
   button3.addEventListener("click", function(){
@@ -147,7 +147,7 @@ $(document).ready(function() {
         }
       }
     });
-  })
+  });
 
   //variables for generating random quote and checking which movie and character it is from
   var button4 = document.querySelector("#randomQuote");
@@ -214,5 +214,5 @@ $(document).ready(function() {
         }
       }
     });
-  })
-})
+  });
+});

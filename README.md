@@ -19,25 +19,27 @@ I wanted this website to provide useful and good functions to the fans of The Lo
 Adobe XD wireframe link: https://xd.adobe.com/view/ce4fc9cd-8cc0-4e03-b5f8-0e069916966b-9b1c/
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
+- Navigation bar with buttons for each section - allows users to navigate to each section by clicking the respective button for that section.
+- Movie search bar - allows users to search for the details of a movie by entering the name of that movie
+- Display all movies button - allows users see all the movies of the series by clicking the button
+- Character search bar - allows users to search for the details of a character by entering the name of the character
+- Random quote generator - allows users to generate and display a random quote along with which character and movie it's from by clicking the button.
+- Back to top button - allows users to navigate back to the top of the website by clicking the button.
+  
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    - The project uses **JQuery** to make api calls.
+- [Javascript](https://www.javascript.com/)
+    - The project uses **Javascript** to simplify DOM manipulation.
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses a **Bootstrap** template called product as the base layout of the website.
+- [HTML](https://html.com/)
+    - The project uses **HTML** language to write the website.
+- [CSS](https://css-tricks.com/)
+    - The project uses **CSS** language to style the website. 
 
 ## Testing
 

@@ -2,18 +2,21 @@
 
 github page link: https://calebchoo1.github.io/IDAssignment2/
 
-My project allows fans of the novel "The Lord of the Rings" to search for its books, characters and movies. They can see all the books and movies with just a click of a button. There is a separate section for the information of books and movies. The last section allows users to search for characters. The specific character's information will be displayed. (race, gender, etc...). I feel that this would help fans of the novel to know more about the characters and also discover movies they might not have watched yet. This website can also be used by people who are new to the novel but would like to find out more about it. Hence i feel that my website is useful in helping its users to search and retrieve information on The Lord of the Rings.
+My project allows fans of the novel "The Lord of the Rings" to search for its books, characters and movies. They can see all the books and movies with just a click of a button. There is a separate section for the information of books and movies. There is also a section which allows users to search for characters. The specific character's information will be displayed. (race, gender, etc...). The last section contains a random quote generator which displays a random quote along with which character and movie it is from. I feel that this would help fans of the novel to know more about the characters and also discover movies they might not have watched yet. This website can also be used by people who are new to the novel but would like to find out more about it. Hence i feel that my website is useful in helping its users to search and retrieve information on The Lord of the Rings.
  
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+I wanted this website to provide useful and good functions to the fans of The Lord of the Rings and also anyone trying to find more information about the series. I decided to go with one big section for the about section since it would attract their attention to read the short description which might be informative for the users who are new to the series. There are 4 smaller sections which include the books, movies, characters and quotes. These sections have a specific function which displays information by clicking each of the buttons. I made these sections small as they were the main functions of the website and i feel that they should be grouped together so that they can be used simultaneously. For example, when a user generates a quote and sees the character and movie it is from, he can just search the name of the character and movie in the various search functions. For the background images, i went with different high resolution The Lord of the Ring images.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+- As a person new to the series, I want to know what the Lord of the Rings is about, hence I click the about section on the navigation bar to read the information displayed.
+- As a person new to the series, I want to know more about the books of this series, hence I click the books section on the navigation bar to look at all the image, title and  description of all the books.
+- As a person new to the series, I want to know all the movies of the series, hence I click on the movie section of the navigation bar and click the display all movies button. 
+- As a person new to the series, I want to generate a random quote, hence i click on the quotes section on the navigation bar and click the generate random quote button.
+- As a fan of the series, I want to know more about the details of a movie. Hence I click the movie section on the navigation bar and search the name of the movie.
+- As a fan of the series, I want to more more details about a character, hence I click the characters section on the navigation bar and search the name of the charcter.
+- As a fan of the series, I want to generate a random quote, hence i click on the quotes section on the navigation bar and click the generate random quote button.
+
+Adobe XD wireframe link: https://xd.adobe.com/view/ce4fc9cd-8cc0-4e03-b5f8-0e069916966b-9b1c/
 
 ## Features
 

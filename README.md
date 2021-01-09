@@ -82,7 +82,7 @@ The api used in this project, (https://the-one-api.dev/), has made a restriction
 
 My project looks normal across firefox, microsoft edge and google chrome. All its functions work normally as well.
 
-# Bugs
+### Bugs
 
 The random quote generator has a lag where the character and movie are displayed slower than the quote.
 

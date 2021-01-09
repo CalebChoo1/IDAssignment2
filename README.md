@@ -22,10 +22,15 @@ Adobe XD wireframe link: https://xd.adobe.com/view/ce4fc9cd-8cc0-4e03-b5f8-0e069
 ### Existing Features
 
 - Navigation bar with buttons for each section - allows users to navigate to each section by clicking the respective button for that section.
+  
 - Movie search bar - allows users to search for the details of a movie by entering the name of that movie
+
 - Display all movies button - allows users see all the movies of the series by clicking the button
+
 - Character search bar - allows users to search for the details of a character by entering the name of the character
+
 - Random quote generator - allows users to generate and display a random quote along with which character and movie it's from by clicking the button.
+
 - Back to top button - allows users to navigate back to the top of the website by clicking the button.
   
 ## Technologies Used
@@ -45,7 +50,8 @@ Adobe XD wireframe link: https://xd.adobe.com/view/ce4fc9cd-8cc0-4e03-b5f8-0e069
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+**IMPORTANT**
+The api used in this project, (https://the-one-api.dev/), has made a restriction such that access for authenticated users to all endpoints is limited to 100 requests every 10 minutes.
 
 1. About button on navigation bar:
    1. When button is clicked, user is brought to about section of the website. 	:heavy_check_mark:
@@ -55,19 +61,52 @@ For any scenarios that have not been automated, test the user stories manually a
    
 3. Movies button on navigation bar:
    1. When button is clicked, user is brought to movies section of the website. 	:heavy_check_mark:
+   
+4. Characters button on navigation bar:
+   1. When button is clicked, user is brought to characters section of the website. :heavy_check_mark:
+   
+5. Quotes button on navigation bar:
+   1. When button is clicked, user is brought to quotes section of the website. :heavy_check_mark:
+   
+6. Movie search function:
+   1. When user enters the name of the movie into the search bar, and clicks search, the corresponding movie with its details are shown below the search bar. :heavy_check_mark:
+   
+7. Display all movies below button:
+   1. When user clicks on the button, all movies are displayed below the button in a list. :heavy_check_mark:
+   
+8. Character search function:
+   1. When user enters the name of a character and clicks search, the corresponding character and his details are shown below the search bar. :heavy_check_mark:
+   
+9.  Random quote generator:
+   2.  When user clicks the button, a random quote will be show along with which character and movie it is from. :heavy_check_mark:
 
+My project looks normal across firefox, microsoft edge and google chrome. All its functions work normally as well.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+# Bugs
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The random quote generator has a lag where the character and movie are displayed slower than the quote.
+
+The container of the books section is uneven when the screen size is reduced. It looks normal again when it reaches around 368px in width.
+
 ## Credits
 
+- The code to change the size of placeholder text (style.css lines 5-17) was copied from (https://stackoverflow.com/questions/38070369/how-change-the-placeholder-size-color-in-html)
+
+- The code to generate random numbers for random quotes was copied from (https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/)
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The text for about section was copied from the [Wikipedia article The_Lord_of_the_Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
+  
+- The text for the book "The Fellowship of the Ring" was copied from [Wikipedia article The_Fellowship_of_the_Ring](https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring)
+
+- The text for the book "The Two Towers" was copied from [Wikipedia article The_Two_Towers](https://en.wikipedia.org/wiki/The_Two_Towers)
+  
+- The text for the book "The Return of the King" was copied from [Wikipedia article The_Return_of_the_King](https://en.wikipedia.org/wiki/The_Return_of_the_King)
 
 ### Media
 - The photos used in this site were obtained from ...
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from this website (https://www.theonering.com/).

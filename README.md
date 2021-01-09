@@ -78,7 +78,7 @@ The api used in this project, (https://the-one-api.dev/), has made a restriction
    1. When user enters the name of a character and clicks search, the corresponding character and his details are shown below the search bar. :heavy_check_mark:
    
 9.  Random quote generator:
-    1.  When user clicks the button, a random quote will be show along with which character and movie it is from. :heavy_check_mark:
+    1.  When user clicks the button, a random quote will be shown along with the character and movie it is from. :heavy_check_mark:
 
 10.  Back to top button:
      1.   When user clicks the button, he will be brought back to the top of the page. :heavy_check_mark:

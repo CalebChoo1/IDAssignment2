@@ -105,7 +105,16 @@ The container of the books section is uneven when the screen size is reduced. It
 - The text for the book "The Return of the King" was copied from [Wikipedia article The_Return_of_the_King](https://en.wikipedia.org/wiki/The_Return_of_the_King)
 
 ### Media
-- The photos used in this site were obtained from ...
+- Background image for the body was obtained from (https://wallpapersafari.com/map-of-middle-earth-wallpaper/)
+- Background image for about section was obtained from (https://wallpaperaccess.com/4k-lord-of-the-rings)
+- Background image for books section was obtained from (https://www.pinterest.com/pin/562809284683220777/)
+- Image of the book "The Fellowship of the Ring" was obtained from (https://www.waterstones.com/book/the-fellowship-of-the-ring/j-r-r-tolkien/9780261103573)
+- Image of the book "The Two Towers" was obtained from (
+https://www.waterstones.com/book/the-two-towers/j-r-r-tolkien/9780261103580)
+- Image of the book "The Return of the King" was obtained from (https://www.amazon.com/Return-King-Being-Third-Rings-ebook/dp/B007978P18)
+- Background image for movies section was obtained from (https://wallpapercave.com/the-lord-of-the-rings-the-fellowship-of-the-ring-wallpapers)
+- Background image for characters section was obtained from (https://wallpaperset.com/lord-of-the-rings-hd-wallpaper)
+- Background image for quotes section was obtained from (https://www.teahub.io/viewwp/hxRRxJ_war-lord-of-the-rings/)
 
 ### Acknowledgements
 

@@ -96,7 +96,7 @@ The container of the books section is uneven when the screen size is reduced. It
 
 - The code to change the size of placeholder text (style.css lines 5-17) was copied from (https://stackoverflow.com/questions/38070369/how-change-the-placeholder-size-color-in-html)
 
-- The code to generate random numbers for random quotes was copied from (https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/)
+- The code to generate random numbers for random quotes (script.js lines 205-206) was copied from (https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/)
 
 ### Content
 
